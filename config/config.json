@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "poornimalaptop",
+    "password": "poornima8240",
+    "database": "sequelize_migrations",
+    "host": "127.0.0.1",
+    "dialect": "mssql",
+    "port":55290,
+    "dialectOptions": {
+      "options": { "requestTimeout": 300000 }
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
